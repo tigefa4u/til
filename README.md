@@ -4,7 +4,7 @@ My Today I Learned snippets. Inspired by [jbranchaud/til](https://github.com/jbr
 
 Search these TILs at https://til.simonwillison.net/
 
-<!-- count starts -->418<!-- count ends --> TILs so far. <a href="https://til.simonwillison.net/til/feed.atom">Atom feed here</a>.
+<!-- count starts -->543<!-- count ends --> TILs so far. <a href="https://til.simonwillison.net/til/feed.atom">Atom feed here</a>.
 
 <!-- index starts -->
 ## github-actions
@@ -32,6 +32,11 @@ Search these TILs at https://til.simonwillison.net/
 * [Conditionally running a second job in a GitHub Actions workflow](https://github.com/simonw/til/blob/main/github-actions/conditionally-run-a-second-job.md) - 2022-07-11
 * [Ensure labels exist in a GitHub repository](https://github.com/simonw/til/blob/main/github-actions/ensure-labels.md) - 2022-09-25
 * [actions/setup-python caching for setup.py projects](https://github.com/simonw/til/blob/main/github-actions/cache-setup-py.md) - 2022-11-28
+* [Running tests against multiple versions of a Python dependency in GitHub Actions](https://github.com/simonw/til/blob/main/github-actions/running-tests-against-multiple-verisons-of-dependencies.md) - 2023-09-15
+* [Serving a JavaScript project built using Vite from GitHub Pages](https://github.com/simonw/til/blob/main/github-actions/vite-github-pages.md) - 2023-10-23
+* [GitHub Actions, Issues and Pages to build a daily planner](https://github.com/simonw/til/blob/main/github-actions/daily-planner.md) - 2024-01-01
+* [Creating GitHub repository labels with an Actions workflow](https://github.com/simonw/til/blob/main/github-actions/creating-github-labels.md) - 2024-02-09
+* [Running cog automatically against GitHub pull requests](https://github.com/simonw/til/blob/main/github-actions/cog.md) - 2024-11-06
 
 ## python
 
@@ -83,6 +88,21 @@ Search these TILs at https://til.simonwillison.net/
 * [Calculating embeddings with gtr-t5-large in Python](https://github.com/simonw/til/blob/main/python/gtr-t5-large.md) - 2023-01-31
 * [A few notes on Rye](https://github.com/simonw/til/blob/main/python/rye.md) - 2023-04-26
 * [The location of the pip cache directory](https://github.com/simonw/til/blob/main/python/pip-cache.md) - 2023-04-28
+* [TOML in Python](https://github.com/simonw/til/blob/main/python/toml.md) - 2023-06-26
+* [CLI tools hidden in the Python standard library](https://github.com/simonw/til/blob/main/python/stdlib-cli-tools.md) - 2023-06-28
+* [Python packages with pyproject.toml and nothing else](https://github.com/simonw/til/blob/main/python/pyproject.md) - 2023-07-07
+* [Quickly testing code in a different Python version using pyenv](https://github.com/simonw/til/blob/main/python/quick-testing-pyenv.md) - 2023-07-10
+* [Using tree-sitter with Python](https://github.com/simonw/til/blob/main/python/tree-sitter.md) - 2023-07-13
+* [Protocols in Python](https://github.com/simonw/til/blob/main/python/protocols.md) - 2023-07-26
+* [Checking if something is callable or async callable in Python](https://github.com/simonw/til/blob/main/python/callable.md) - 2023-08-04
+* [A simple pattern for inlining binary content in a Python script](https://github.com/simonw/til/blob/main/python/inlining-binary-data.md) - 2023-08-19
+* [Using pprint() to print dictionaries while preserving their key order](https://github.com/simonw/til/blob/main/python/pprint-no-sort-dicts.md) - 2024-01-14
+* [Getting Python MD5 to work with FIPS systems](https://github.com/simonw/til/blob/main/python/md5-fips.md) - 2024-02-13
+* [Programmatically comparing Python version strings](https://github.com/simonw/til/blob/main/python/comparing-version-numbers.md) - 2024-03-17
+* [Trying out free-threaded Python on macOS](https://github.com/simonw/til/blob/main/python/trying-free-threaded-python.md) - 2024-07-12
+* [Using uv to develop Python command-line applications](https://github.com/simonw/til/blob/main/python/uv-cli-apps.md) - 2024-10-23
+* [Installing flash-attn without compiling it](https://github.com/simonw/til/blob/main/python/installing-flash-attention.md) - 2024-10-24
+* [Fixes for datetime UTC warnings in Python](https://github.com/simonw/til/blob/main/python/utc-warning-fix.md) - 2024-12-12
 
 ## zeit-now
 
@@ -135,6 +155,16 @@ Search these TILs at https://til.simonwillison.net/
 * [Saving an in-memory SQLite database to a file in Python](https://github.com/simonw/til/blob/main/sqlite/python-sqlite-memory-to-file.md) - 2023-04-08
 * [Unix timestamp in milliseconds in SQLite](https://github.com/simonw/til/blob/main/sqlite/unix-timestamp-milliseconds-sqlite.md) - 2023-04-08
 * [Comparing two training datasets using sqlite-utils](https://github.com/simonw/til/blob/main/sqlite/comparing-datasets.md) - 2023-05-23
+* [A one-liner to output details of the current Python's SQLite](https://github.com/simonw/til/blob/main/sqlite/python-sqlite-environment.md) - 2023-08-19
+* [Calculating the size of a SQLite database file using SQL](https://github.com/simonw/til/blob/main/sqlite/database-file-size.md) - 2023-08-21
+* [Compile and run a new SQLite version with the existing sqlite3 Python library on macOS](https://github.com/simonw/til/blob/main/sqlite/sqlite-version-macos-python.md) - 2023-08-22
+* [Trying out cr-sqlite on macOS](https://github.com/simonw/til/blob/main/sqlite/cr-sqlite-macos.md) - 2023-09-12
+* [Geospatial SQL queries in SQLite using TG, sqlite-tg and datasette-sqlite-tg](https://github.com/simonw/til/blob/main/sqlite/sqlite-tg.md) - 2023-09-25
+* [Running Steampipe extensions in sqlite-utils and Datasette](https://github.com/simonw/til/blob/main/sqlite/steampipe.md) - 2023-12-20
+* [Tracking SQLite table history using a JSON audit log](https://github.com/simonw/til/blob/main/sqlite/json-audit-log.md) - 2024-02-26
+* [SQLite timestamps with floating point seconds](https://github.com/simonw/til/blob/main/sqlite/floating-point-seconds.md) - 2024-03-13
+* [Using sqlite-vec with embeddings in sqlite-utils and Datasette](https://github.com/simonw/til/blob/main/sqlite/sqlite-vec.md) - 2024-08-11
+* [Compiling and running sqlite3-rsync](https://github.com/simonw/til/blob/main/sqlite/compile-sqlite3-rsync.md) - 2024-10-04
 
 ## presenting
 
@@ -157,6 +187,16 @@ Search these TILs at https://til.simonwillison.net/
 * [Driving an external display from a Mac laptop](https://github.com/simonw/til/blob/main/macos/external-display-laptop.md) - 2022-09-10
 * [Browse files (including SQLite databases) on your iPhone with ifuse](https://github.com/simonw/til/blob/main/macos/ifuse-iphone.md) - 2022-09-13
 * [sips: Scriptable image processing system](https://github.com/simonw/til/blob/main/macos/sips.md) - 2023-02-18
+* [Using fs_usage to see what files a process is using](https://github.com/simonw/til/blob/main/macos/fs-usage.md) - 2023-06-15
+* [Syncing slide images and audio in iMovie](https://github.com/simonw/til/blob/main/macos/imovie-slides-and-audio.md) - 2023-06-15
+* [Local wildcard DNS on macOS with dnsmasq](https://github.com/simonw/til/blob/main/macos/wildcard-dns-dnsmasq.md) - 2023-06-30
+* [Downloading partial YouTube videos with ffmpeg](https://github.com/simonw/til/blob/main/macos/downloading-partial-youtube-videos.md) - 2023-08-26
+* [Grabbing a transcript of a short snippet of a YouTube video with MacWhisper](https://github.com/simonw/til/blob/main/macos/quick-whisper-youtube.md) - 2023-11-30
+* [Editing an iPhone home screen using macOS](https://github.com/simonw/til/blob/main/macos/edit-ios-home-screen.md) - 2023-12-11
+* [impaste: pasting images to piped commands on macOS](https://github.com/simonw/til/blob/main/macos/impaste.md) - 2024-04-04
+* [A script to capture frames from a QuickTime video](https://github.com/simonw/til/blob/main/macos/quicktime-capture-script.md) - 2024-04-16
+* [Transcribing MP3s with whisper-cpp on macOS](https://github.com/simonw/til/blob/main/macos/whisper-cpp.md) - 2024-04-26
+* [Accessing 1Password items from the terminal](https://github.com/simonw/til/blob/main/macos/1password-terminal.md) - 2024-07-09
 
 ## cloudrun
 
@@ -193,6 +233,9 @@ Search these TILs at https://til.simonwillison.net/
 * [Mocking a Textract LimitExceededException with boto](https://github.com/simonw/til/blob/main/pytest/mocking-boto.md) - 2022-08-07
 * [Show files opened by pytest tests](https://github.com/simonw/til/blob/main/pytest/show-files-opened-by-tests.md) - 2022-12-11
 * [Mocking subprocess with pytest-subprocess](https://github.com/simonw/til/blob/main/pytest/pytest-subprocess.md) - 2023-03-08
+* [Snapshot testing with Syrupy](https://github.com/simonw/til/blob/main/pytest/syrupy.md) - 2023-09-26
+* [Mocking Stripe signature checks in a pytest fixture](https://github.com/simonw/til/blob/main/pytest/pytest-stripe-signature.md) - 2024-07-01
+* [Using namedtuple for pytest parameterized tests](https://github.com/simonw/til/blob/main/pytest/namedtuple-parameterized-tests.md) - 2024-08-31
 
 ## github
 
@@ -202,13 +245,16 @@ Search these TILs at https://til.simonwillison.net/
 * [Bulk fetching repository details with the GitHub GraphQL API](https://github.com/simonw/til/blob/main/github/bulk-repo-github-graphql.md) - 2021-01-17
 * [Syntax highlighting Python console examples with GFM](https://github.com/simonw/til/blob/main/github/syntax-highlighting-python-console.md) - 2021-01-18
 * [Transferring a GitHub issue from a private to a public repository](https://github.com/simonw/til/blob/main/github/transfer-issue-private-to-public.md) - 2021-12-22
-* [Configuring Dependabot for a Python project with dependencies in setup.py](https://github.com/simonw/til/blob/main/github/dependabot-python-setup.md) - 2022-01-14
+* [Configuring Dependabot for a Python project](https://github.com/simonw/til/blob/main/github/dependabot-python-setup.md) - 2022-01-14
 * [Setting up a custom subdomain for a GitHub Pages site](https://github.com/simonw/til/blob/main/github/custom-subdomain-github-pages.md) - 2022-05-04
 * [Reporting bugs in GitHub to GitHub](https://github.com/simonw/til/blob/main/github/reporting-bugs.md) - 2022-07-07
 * [Migrating a GitHub wiki from one repository to another](https://github.com/simonw/til/blob/main/github/migrate-github-wiki.md) - 2022-07-28
 * [Clone, edit and push files that live in a Gist](https://github.com/simonw/til/blob/main/github/clone-and-push-gist.md) - 2022-09-08
 * [GitHub Pages: The Missing Manual](https://github.com/simonw/til/blob/main/github/github-pages.md) - 2022-10-31
 * [Finding uses of an API with the new GitHub Code Search](https://github.com/simonw/til/blob/main/github/github-code-search-api-uses.md) - 2022-12-08
+* [Bulk editing status in GitHub Projects](https://github.com/simonw/til/blob/main/github/bulk-edit-github-projects.md) - 2023-06-29
+* [Running a Django and PostgreSQL development environment in GitHub Codespaces](https://github.com/simonw/til/blob/main/github/django-postgresql-codespaces.md) - 2023-08-10
+* [Assistance with release notes using GitHub Issues](https://github.com/simonw/til/blob/main/github/release-note-assistance.md) - 2024-08-05
 
 ## node
 
@@ -227,6 +273,7 @@ Search these TILs at https://til.simonwillison.net/
 ## pypi
 
 * [Adding project links to PyPI](https://github.com/simonw/til/blob/main/pypi/project-links.md) - 2020-05-11
+* [Publish releases to PyPI from GitHub Actions without a password or token](https://github.com/simonw/til/blob/main/pypi/pypi-releases-from-github.md) - 2024-01-14
 
 ## asgi
 
@@ -255,6 +302,7 @@ Search these TILs at https://til.simonwillison.net/
 * [JavaScript date objects](https://github.com/simonw/til/blob/main/javascript/javascript-date-objects.md) - 2022-01-16
 * [Creating a tiled zoomable image with OpenSeadragon and vips](https://github.com/simonw/til/blob/main/javascript/openseadragon.md) - 2022-08-12
 * [Copy rich text to the clipboard](https://github.com/simonw/til/blob/main/javascript/copy-rich-text-to-clipboard.md) - 2023-03-10
+* [Using packages from JSR with esbuild](https://github.com/simonw/til/blob/main/javascript/jsr-esbuild.md) - 2024-03-02
 
 ## django
 
@@ -274,6 +322,9 @@ Search these TILs at https://til.simonwillison.net/
 * [Django data migration using a PostgreSQL CTE](https://github.com/simonw/til/blob/main/django/migration-using-cte.md) - 2021-05-17
 * [Using just with Django](https://github.com/simonw/til/blob/main/django/just-with-django.md) - 2022-06-06
 * [Adding a Datasette ASGI app to Django](https://github.com/simonw/til/blob/main/django/datasette-django.md) - 2022-10-20
+* [Building a blog in Django](https://github.com/simonw/til/blob/main/django/building-a-blog-in-django.md) - 2023-08-15
+* [Using pytest-django with a reusable Django application](https://github.com/simonw/til/blob/main/django/pytest-django.md) - 2024-08-07
+* [Building an automatically updating live blog in Django](https://github.com/simonw/til/blob/main/django/live-blog.md) - 2024-10-02
 
 ## docker
 
@@ -294,6 +345,8 @@ Search these TILs at https://til.simonwillison.net/
 * [Upgrading Python Homebrew packages using pip](https://github.com/simonw/til/blob/main/homebrew/upgrading-python-homebrew-packages.md) - 2020-10-14
 * [Running a MySQL server using Homebrew](https://github.com/simonw/til/blob/main/homebrew/mysql-homebrew.md) - 2021-06-11
 * [Running the latest SQLite in Datasette using Homebrew](https://github.com/simonw/til/blob/main/homebrew/latest-sqlite.md) - 2022-02-28
+* [Automatically maintaining Homebrew formulas using GitHub Actions](https://github.com/simonw/til/blob/main/homebrew/auto-formulas-github-actions.md) - 2023-06-21
+* [Upgrading Homebrew and avoiding the failed to verify attestation error](https://github.com/simonw/til/blob/main/homebrew/no-verify-attestations.md) - 2024-10-09
 
 ## zsh
 
@@ -307,6 +360,8 @@ Search these TILs at https://til.simonwillison.net/
 * [Using custom Sphinx templates on Read the Docs](https://github.com/simonw/til/blob/main/readthedocs/custom-sphinx-templates.md) - 2020-12-07
 * [Promoting the stable version of the documentation using rel=canonical](https://github.com/simonw/til/blob/main/readthedocs/documentation-seo-canonical.md) - 2022-01-20
 * [Linking from /latest/ to /stable/ on Read The Docs](https://github.com/simonw/til/blob/main/readthedocs/link-from-latest-to-stable.md) - 2022-01-20
+* [Updating stable docs in ReadTheDocs without pushing a release](https://github.com/simonw/til/blob/main/readthedocs/stable-docs.md) - 2023-08-20
+* [Running pip install '.[docs]' on ReadTheDocs](https://github.com/simonw/til/blob/main/readthedocs/pip-install-docs.md) - 2023-11-24
 
 ## ics
 
@@ -332,6 +387,7 @@ Search these TILs at https://til.simonwillison.net/
 * [Turning an array of arrays into objects with jq](https://github.com/simonw/til/blob/main/jq/array-of-array-to-objects.md) - 2021-05-25
 * [Extracting objects recursively with jq](https://github.com/simonw/til/blob/main/jq/extracting-objects-recursively.md) - 2021-07-24
 * [Convert git log output to JSON using jq](https://github.com/simonw/til/blob/main/jq/git-log-json.md) - 2023-03-25
+* [Combined release notes from GitHub with jq and paginate-json](https://github.com/simonw/til/blob/main/jq/combined-github-release-notes.md) - 2023-08-12
 
 ## bash
 
@@ -344,6 +400,8 @@ Search these TILs at https://til.simonwillison.net/
 * [Using awk to add a prefix](https://github.com/simonw/til/blob/main/bash/use-awk-to-add-a-prefix.md) - 2022-04-08
 * [Ignoring errors in a section of a Bash script](https://github.com/simonw/til/blob/main/bash/ignore-errors.md) - 2022-06-27
 * [Start, test, then stop a localhost web server in a Bash script](https://github.com/simonw/til/blob/main/bash/start-test-then-stop-server.md) - 2022-12-17
+* [Running multiple servers in a single Bash script](https://github.com/simonw/til/blob/main/bash/multiple-servers.md) - 2023-08-16
+* [A shell script for running Go one-liners](https://github.com/simonw/til/blob/main/bash/go-script.md) - 2023-08-20
 
 ## typescript
 
@@ -364,6 +422,7 @@ Search these TILs at https://til.simonwillison.net/
 
 * [Turning on Jinja autoescaping when using Template() directly](https://github.com/simonw/til/blob/main/jinja/autoescape-template.md) - 2020-09-18
 * [Formatting thousands in Jinja](https://github.com/simonw/til/blob/main/jinja/format-thousands.md) - 2022-06-08
+* [Custom Jinja template tags with attributes](https://github.com/simonw/til/blob/main/jinja/custom-jinja-tags-with-attributes.md) - 2023-07-01
 
 ## selenium
 
@@ -389,6 +448,11 @@ Search these TILs at https://til.simonwillison.net/
 * [Scraping Reddit and writing data to the Datasette write API](https://github.com/simonw/til/blob/main/datasette/reddit-datasette-write.md) - 2023-03-13
 * [Interactive row selection prototype with Datasette](https://github.com/simonw/til/blob/main/datasette/row-selection-prototype.md) - 2023-03-30
 * [Exploring Baseline with Datasette Lite](https://github.com/simonw/til/blob/main/datasette/baseline.md) - 2023-05-12
+* [Syntax highlighted code examples in Datasette](https://github.com/simonw/til/blob/main/datasette/syntax-highlighted-code-examples.md) - 2023-07-01
+* [Using pytest-httpx to run intercepted requests through an in-memory Datasette instance](https://github.com/simonw/til/blob/main/datasette/pytest-httpx-datasette.md) - 2023-07-24
+* [Remember to commit when using datasette.execute_write_fn()](https://github.com/simonw/til/blob/main/datasette/remember-to-commit.md) - 2023-08-31
+* [Running Datasette on Hugging Face Spaces](https://github.com/simonw/til/blob/main/datasette/hugging-face-spaces.md) - 2023-09-08
+* [Writing Playwright tests for a Datasette Plugin](https://github.com/simonw/til/blob/main/datasette/playwright-tests-datasette-plugin.md) - 2024-01-08
 
 ## jupyter
 
@@ -404,12 +468,14 @@ Search these TILs at https://til.simonwillison.net/
 * [Downloading MapZen elevation tiles](https://github.com/simonw/til/blob/main/gis/mapzen-elevation-tiles.md) - 2021-02-04
 * [Natural Earth in SpatiaLite and Datasette](https://github.com/simonw/til/blob/main/gis/natural-earth-in-spatialite-and-datasette.md) - 2022-03-04
 * [Using SQL with GDAL](https://github.com/simonw/til/blob/main/gis/gdal-sql.md) - 2023-03-09
+* [Serving a custom vector web map using PMTiles and maplibre-gl](https://github.com/simonw/til/blob/main/gis/pmtiles.md) - 2023-10-23
 
 ## sphinx
 
 * [Using sphinx.ext.extlinks for issue links](https://github.com/simonw/til/blob/main/sphinx/sphinx-ext-extlinks.md) - 2021-02-17
 * [Adding Sphinx autodoc to a project, and configuring Read The Docs to build it](https://github.com/simonw/til/blob/main/sphinx/sphinx-autodoc.md) - 2021-08-10
 * [Format code examples in documentation with blacken-docs](https://github.com/simonw/til/blob/main/sphinx/blacken-docs.md) - 2022-04-24
+* [literalinclude with markers for showing code in documentation](https://github.com/simonw/til/blob/main/sphinx/literalinclude-with-markers.md) - 2024-01-10
 
 ## postgresql
 
@@ -419,6 +485,7 @@ Search these TILs at https://til.simonwillison.net/
 * [Using unnest() to use a comma-separated string as the input to an IN query](https://github.com/simonw/til/blob/main/postgresql/unnest-csv.md) - 2021-04-10
 * [Using json_extract_path in PostgreSQL](https://github.com/simonw/til/blob/main/postgresql/json-extract-path.md) - 2021-04-13
 * [Constructing GeoJSON in PostgreSQL](https://github.com/simonw/til/blob/main/postgresql/constructing-geojson-in-postgresql.md) - 2021-04-24
+* [Upgrade Postgres.app on macOS](https://github.com/simonw/til/blob/main/postgresql/upgrade-postgres-app.md) - 2024-06-15
 
 ## mediawiki
 
@@ -454,6 +521,7 @@ Search these TILs at https://til.simonwillison.net/
 * [Building a Markdown summary of Django group permissions](https://github.com/simonw/til/blob/main/sql/django-group-permissions-markdown.md) - 2021-06-03
 * [Cumulative total over time in SQL](https://github.com/simonw/til/blob/main/sql/cumulative-total-over-time.md) - 2021-09-13
 * [Using recursive CTEs to explore hierarchical Twitter threads](https://github.com/simonw/til/blob/main/sql/recursive-cte-twitter-threads.md) - 2023-01-30
+* [Consecutive groups in SQL using window functions](https://github.com/simonw/til/blob/main/sql/consecutive-groups.md) - 2023-06-08
 
 ## amplitude
 
@@ -514,6 +582,9 @@ Search these TILs at https://til.simonwillison.net/
 * [git bisect](https://github.com/simonw/til/blob/main/git/git-bisect.md) - 2022-10-29
 * [How to create a tarball of a git repository using "git archive"](https://github.com/simonw/til/blob/main/git/git-archive.md) - 2022-11-15
 * [Rewriting a Git repo to remove secrets from the history](https://github.com/simonw/til/blob/main/git/rewrite-repo-remove-secrets.md) - 2023-01-24
+* [Using git-filter-repo to set commit dates to author dates](https://github.com/simonw/til/blob/main/git/git-filter-repo.md) - 2023-07-10
+* [Back-dating Git commits based on file modification dates](https://github.com/simonw/til/blob/main/git/backdate-git-commits.md) - 2024-08-01
+* [Calculating the size of all LFS files in a repo](https://github.com/simonw/til/blob/main/git/size-of-lfs-files.md) - 2024-12-25
 
 ## web-components
 
@@ -539,6 +610,9 @@ Search these TILs at https://til.simonwillison.net/
 * [Wildcard DNS and SSL on Fly](https://github.com/simonw/til/blob/main/fly/wildcard-dns-ssl.md) - 2022-05-25
 * [Deploying a redbean app to Fly](https://github.com/simonw/til/blob/main/fly/redbean-on-fly.md) - 2022-07-24
 * [How to scp files to and from Fly](https://github.com/simonw/til/blob/main/fly/scp.md) - 2022-09-02
+* [Configuring Django SQL Dashboard for Fly PostgreSQL](https://github.com/simonw/til/blob/main/fly/django-sql-dashboard.md) - 2023-08-21
+* [Deploying the CLIP embedding model on Fly](https://github.com/simonw/til/blob/main/fly/clip-on-fly.md) - 2023-10-18
+* [Running Varnish on Fly](https://github.com/simonw/til/blob/main/fly/varnish-on-fly.md) - 2024-01-08
 
 ## caddy
 
@@ -549,6 +623,9 @@ Search these TILs at https://til.simonwillison.net/
 * [Publishing a Web Component to npm](https://github.com/simonw/til/blob/main/npm/publish-web-component.md) - 2021-11-28
 * [Annotated package.json for idb-keyval](https://github.com/simonw/til/blob/main/npm/annotated-package-json.md) - 2022-02-10
 * [Upgrading packages with npm](https://github.com/simonw/til/blob/main/npm/upgrading-packages.md) - 2022-07-13
+* [Running self-hosted QuickJS in a browser](https://github.com/simonw/til/blob/main/npm/self-hosted-quickjs.md) - 2024-03-20
+* [Running Prettier against Django or Jinja templates](https://github.com/simonw/til/blob/main/npm/prettier-django.md) - 2024-06-19
+* [Publishing a simple client-side JavaScript package to npm with GitHub Actions](https://github.com/simonw/til/blob/main/npm/npm-publish-github-actions.md) - 2024-12-07
 
 ## pluggy
 
@@ -557,6 +634,11 @@ Search these TILs at https://til.simonwillison.net/
 ## cloudflare
 
 * [Adding a robots.txt using Cloudflare workers](https://github.com/simonw/til/blob/main/cloudflare/robots-txt-cloudflare-workers.md) - 2021-12-21
+* [How to get Cloudflare to cache HTML](https://github.com/simonw/til/blob/main/cloudflare/cloudflare-cache-html.md) - 2024-01-08
+* [Redirecting a whole domain with Cloudflare](https://github.com/simonw/til/blob/main/cloudflare/redirect-whole-domain.md) - 2024-03-15
+* [Cloudflare redirect rules with dynamic expressions](https://github.com/simonw/til/blob/main/cloudflare/redirect-rules.md) - 2024-05-29
+* [Setting cache-control: max-age=31536000 with a Cloudflare Transform Rule](https://github.com/simonw/til/blob/main/cloudflare/cache-control-transform-rule.md) - 2024-10-23
+* [GitHub OAuth for a static site using Cloudflare Workers](https://github.com/simonw/til/blob/main/cloudflare/workers-github-oauth.md) - 2024-11-28
 
 ## webauthn
 
@@ -581,6 +663,7 @@ Search these TILs at https://til.simonwillison.net/
 * [Exporting and editing a Twitter Spaces recording](https://github.com/simonw/til/blob/main/twitter/export-edit-twitter-spaces.md) - 2022-03-23
 * [How to get credentials for a new Twitter bot](https://github.com/simonw/til/blob/main/twitter/credentials-twitter-bot.md) - 2022-04-17
 * [Loading Twitter Birdwatch into SQLite for analysis with Datasette](https://github.com/simonw/til/blob/main/twitter/birdwatch-sqlite.md) - 2022-09-03
+* [Collecting replies to tweets using JavaScript](https://github.com/simonw/til/blob/main/twitter/collecting-replies.md) - 2024-10-08
 
 ## shot-scraper
 
@@ -588,6 +671,7 @@ Search these TILs at https://til.simonwillison.net/
 * [shot-scraper for a subset of table columns](https://github.com/simonw/til/blob/main/shot-scraper/subset-of-table-columns.md) - 2022-10-14
 * [Scraping the Sky News Westminster Accounts, a Flourish application](https://github.com/simonw/til/blob/main/shot-scraper/scraping-flourish.md) - 2023-01-10
 * [Social media cards generated with shot-scraper](https://github.com/simonw/til/blob/main/shot-scraper/social-media-cards.md) - 2023-04-29
+* [axe-core and shot-scraper for accessibility audits](https://github.com/simonw/til/blob/main/shot-scraper/axe-core.md) - 2023-07-30
 
 ## auth0
 
@@ -606,6 +690,7 @@ Search these TILs at https://til.simonwillison.net/
 ## networking
 
 * [Making HTTP calls using IPv6](https://github.com/simonw/til/blob/main/networking/http-ipv6.md) - 2022-06-08
+* [Running Ethernet over existing coaxial cable](https://github.com/simonw/til/blob/main/networking/ethernet-over-coaxial-cable.md) - 2024-02-12
 
 ## gpt3
 
@@ -618,6 +703,8 @@ Search these TILs at https://til.simonwillison.net/
 * [Using ChatGPT to write AppleScript](https://github.com/simonw/til/blob/main/gpt3/chatgpt-applescript.md) - 2023-03-08
 * [Using the ChatGPT streaming API from Python](https://github.com/simonw/til/blob/main/gpt3/python-chatgpt-streaming-api.md) - 2023-04-01
 * [GPT-4 for API design research](https://github.com/simonw/til/blob/main/gpt3/gpt4-api-design.md) - 2023-04-06
+* [Using ChatGPT Browse to name a Python package](https://github.com/simonw/til/blob/main/gpt3/picking-python-project-name-chatgpt.md) - 2023-06-18
+* [Using OpenAI functions and their Python library for data extraction](https://github.com/simonw/til/blob/main/gpt3/openai-python-functions-data-extraction.md) - 2023-07-09
 
 ## quarto
 
@@ -627,6 +714,7 @@ Search these TILs at https://til.simonwillison.net/
 
 * [Using DuckDB in Python to access Parquet data](https://github.com/simonw/til/blob/main/duckdb/parquet.md) - 2022-09-16
 * [Use DuckDB to convert parquet to JSON and then open it in Datasette Lite](https://github.com/simonw/til/blob/main/duckdb/parquet-to-json.md) - 2023-03-21
+* [Summing columns in remote Parquet files using DuckDB](https://github.com/simonw/til/blob/main/duckdb/remote-parquet.md) - 2023-11-14
 
 ## awslambda
 
@@ -643,6 +731,8 @@ Search these TILs at https://til.simonwillison.net/
 * [HTML video that loads when the user clicks play](https://github.com/simonw/til/blob/main/html/video-preload-none.md) - 2022-09-29
 * [HTML datalist](https://github.com/simonw/til/blob/main/html/datalist.md) - 2022-11-14
 * [Lazy loading images in HTML](https://github.com/simonw/til/blob/main/html/lazy-loading-images.md) - 2022-11-26
+* [Scroll to text fragments](https://github.com/simonw/til/blob/main/html/scroll-to-text.md) - 2023-08-08
+* [HTML video with subtitles](https://github.com/simonw/til/blob/main/html/video-with-subtitles.md) - 2024-07-31
 
 ## mastodon
 
@@ -654,10 +744,13 @@ Search these TILs at https://til.simonwillison.net/
 ## json
 
 * [JSON Pointer](https://github.com/simonw/til/blob/main/json/json-pointer.md) - 2022-11-14
+* [Processing a stream of chunks of JSON with ijson](https://github.com/simonw/til/blob/main/json/ijson-stream.md) - 2023-08-15
+* [Streaming output of an indented JSON array](https://github.com/simonw/til/blob/main/json/streaming-indented-json-array.md) - 2023-08-29
 
 ## clickhouse
 
 * [Querying the GitHub archive with the ClickHouse playground](https://github.com/simonw/til/blob/main/clickhouse/github-explorer.md) - 2022-12-31
+* [Reviewing your history of public GitHub repositories using ClickHouse](https://github.com/simonw/til/blob/main/clickhouse/github-public-history.md) - 2024-03-20
 
 ## cooking
 
@@ -672,6 +765,17 @@ Search these TILs at https://til.simonwillison.net/
 * [Running Dolly 2.0 on Paperspace](https://github.com/simonw/til/blob/main/llms/dolly-2.md) - 2023-04-12
 * [Expanding ChatGPT Code Interpreter with Python packages, Deno and Lua](https://github.com/simonw/til/blob/main/llms/code-interpreter-expansions.md) - 2023-04-30
 * [mlc-chat - RedPajama-INCITE-Chat-3B on macOS](https://github.com/simonw/til/blob/main/llms/mlc-chat-redpajama.md) - 2023-05-22
+* [Running OpenAI's large context models using llm](https://github.com/simonw/til/blob/main/llms/larger-context-openai-models-llm.md) - 2023-06-13
+* [Storing and serving related documents with openai-to-sqlite and embeddings](https://github.com/simonw/til/blob/main/llms/openai-embeddings-related-content.md) - 2023-08-14
+* [Embedding paragraphs from my blog with E5-large-v2](https://github.com/simonw/til/blob/main/llms/embed-paragraphs.md) - 2023-09-08
+* [Summarizing Hacker News discussion themes with Claude and LLM](https://github.com/simonw/til/blob/main/llms/claude-hacker-news-themes.md) - 2023-09-09
+* [Using llama-cpp-python grammars to generate JSON](https://github.com/simonw/til/blob/main/llms/llama-cpp-python-grammars.md) - 2023-09-12
+* [Exploring ColBERT with RAGatouille](https://github.com/simonw/til/blob/main/llms/colbert-ragatouille.md) - 2024-01-27
+* [Piping from rg to llm to answer questions about code](https://github.com/simonw/til/blob/main/llms/rg-pipe-llm-trick.md) - 2024-02-11
+* [How streaming LLM APIs work](https://github.com/simonw/til/blob/main/llms/streaming-llm-apis.md) - 2024-09-21
+* [Running prompts against images, PDFs, audio and video with Google Gemini](https://github.com/simonw/til/blob/main/llms/prompt-gemini.md) - 2024-10-23
+* [Generating documentation from tests using files-to-prompt and LLM](https://github.com/simonw/til/blob/main/llms/docs-from-tests.md) - 2024-11-05
+* [Named Entity Resolution with dslim/distilbert-NER](https://github.com/simonw/til/blob/main/llms/bert-ner.md) - 2024-12-23
 
 ## ab
 
@@ -696,8 +800,80 @@ Search these TILs at https://til.simonwillison.net/
 ## misc
 
 * [hexdump and hexdump -C](https://github.com/simonw/til/blob/main/misc/hexdump.md) - 2023-05-22
+* [Cloning my voice with ElevenLabs](https://github.com/simonw/til/blob/main/misc/voice-cloning.md) - 2023-11-15
 
 ## http
 
 * [Testing the Access-Control-Max-Age CORS header](https://github.com/simonw/til/blob/main/http/testing-cors-max-age.md) - 2023-05-25
+
+## discord
+
+* [A Discord bot to expand issue links to a private GitHub repository](https://github.com/simonw/til/blob/main/discord/discord-github-issues-bot.md) - 2023-06-29
+
+## yaml
+
+* [Auto-formatting YAML files with yamlfmt](https://github.com/simonw/til/blob/main/yaml/yamlfmt.md) - 2023-07-13
+
+## overture-maps
+
+* [Exploring the Overture Maps places data using DuckDB, sqlite-utils and Datasette](https://github.com/simonw/til/blob/main/overture-maps/overture-maps-parquet.md) - 2023-07-27
+
+## cosmopolitan
+
+* [Catching up with the Cosmopolitan ecosystem](https://github.com/simonw/til/blob/main/cosmopolitan/ecosystem.md) - 2023-08-10
+
+## google
+
+* [Limited JSON API for Google searches using Programmable Search Engine](https://github.com/simonw/til/blob/main/google/json-api-programmable-search-engine.md) - 2023-09-16
+* [Generating URLs to a Gmail compose window](https://github.com/simonw/til/blob/main/google/gmail-compose-url.md) - 2024-03-12
+
+## machinelearning
+
+* [Trying out the facebook/musicgen-small sound generation model](https://github.com/simonw/til/blob/main/machinelearning/musicgen.md) - 2023-09-23
+
+## css
+
+* [Understanding the CSS auto-resizing textarea trick](https://github.com/simonw/til/blob/main/css/resizing-textarea.md) - 2023-09-30
+* [A simple two column CSS grid](https://github.com/simonw/til/blob/main/css/simple-two-column-grid.md) - 2023-10-26
+
+## pyodide
+
+* [Cryptography in Pyodide](https://github.com/simonw/til/blob/main/pyodide/cryptography-in-pyodide.md) - 2023-11-26
+
+## playwright
+
+* [Using expect() to wait for a selector to match multiple items](https://github.com/simonw/til/blob/main/playwright/expect-selector-count.md) - 2024-01-13
+* [Testing HTML tables with Playwright Python](https://github.com/simonw/til/blob/main/playwright/testing-tables.md) - 2024-09-03
+
+## httpx
+
+* [Logging OpenAI API requests and responses using HTTPX](https://github.com/simonw/til/blob/main/httpx/openai-log-requests-responses.md) - 2024-01-26
+
+## valtown
+
+* [Running a scheduled function on Val Town to import Atom feeds into Datasette Cloud](https://github.com/simonw/til/blob/main/valtown/scheduled.md) - 2024-02-20
+
+## chrome
+
+* [Google Chrome --headless mode](https://github.com/simonw/til/blob/main/chrome/headless.md) - 2024-03-24
+
+## go
+
+* [Installing tools written in Go](https://github.com/simonw/til/blob/main/go/installing-tools.md) - 2024-03-25
+
+## ham-radio
+
+* [How I studied for my Ham radio general exam](https://github.com/simonw/til/blob/main/ham-radio/general.md) - 2024-05-11
+
+## ios
+
+* [Listen to a web page in Mobile Safari](https://github.com/simonw/til/blob/main/ios/listen-to-page.md) - 2024-05-21
+
+## youtube
+
+* [Livestreaming a community election event on YouTube](https://github.com/simonw/til/blob/main/youtube/livestreaming.md) - 2024-10-09
+
+## hugo
+
+* [The most basic possible Hugo site](https://github.com/simonw/til/blob/main/hugo/basic.md) - 2024-10-22
 <!-- index ends -->
