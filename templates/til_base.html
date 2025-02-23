@@ -37,6 +37,10 @@ h1 {
 pre {
     white-space: pre-wrap;
 }
+pre[lang=wide] {
+    white-space: pre;
+    overflow: auto;
+}
 nav {
     text-align: left;
     background: linear-gradient(to bottom, rgb(154, 103, 175) 0%, rgb(96, 72, 129) 49%, rgb(100, 67, 130) 100%);
@@ -59,6 +63,14 @@ section.body {
     padding: 0.5em 2em;
     max-width: 800px;
 }
+@media (max-width: 600px) {
+    section.body {
+        padding: 0em 1em;
+    }
+    nav p {
+        padding: 4px 0px 4px 1em;
+    }
+}
 a, pre, code {
     overflow-wrap: break-word;
 }
@@ -68,6 +80,7 @@ table {
 th, td {
     padding: 0.3em;
     border: 1px solid #D3D3D3;
+    word-wrap: anywhere;
 }
 th {
     background-color: #eee;
