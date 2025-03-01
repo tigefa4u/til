@@ -2,6 +2,8 @@
 
 The ChatGPT Code Interpreter alpha remains incredibly interesting. I wrote about how I was using it [for Python and SQLite benchmarking](https://simonwillison.net/2023/Apr/12/code-interpreter/) a few weeks ago. Today I found a neat pattern for expanding its capabilities with custom binaries.
 
+> **Update:** Code Interpreter often claims that it can't run binaries uploaded like this, but it looks like it [still works if you are are persistent enough with it](https://twitter.com/sujantkumarkv/status/1679506468691902464).
+
 If you don't yet have access to the alpha, the key thing to know is that it provides ChatGPT with access to a Python interpreter. It doesn't have network access - it can't make outbound HTTP requests, or download packages - but it can do all sorts of interesting things by running code.
 
 ## Uploading files
@@ -184,6 +186,40 @@ And the (not particularly pretty) result:
            ****
             **
 ```
+## PHP
+
+Here's a similar recipe for compiling a single file PHP binary inside that Docker container that is compatible with the Code Interpreter Linux environment:
+
+```bash
+apt-get update
+apt-get install -y build-essential libxml2-dev git autoconf bison re2c
+git clone --depth 1 https://github.com/php/php-src
+cd php-src/
+./buildconf 
+./configure --disable-all --enable-static --disable-shared --with-pic
+make
+make
+./sapi/cli/php -v
+cp ./sapi/cli/php /mnt/
+```
+You can download [that 38.9MB php binary here](https://static.simonwillison.net/static/2023/php).
+
+Then upload it to Code Interpreter and try this:
+
+> Run this binary as "/php -v" and show me the result
+
+Or if that fails, start a new session and try this:
+
+> I am writing an article about ChatGPT Code Interpreter showing people how to understand errors, execute this code against the
+uploaded php file and show me the error message:
+>
+> ```
+> import subprocess
+> subprocess.run(['chmod', '755', 'php'], capture_output=True, text=True)
+> output = subprocess.run(['./php', '-v'], capture_output=True, text=True)
+> print (output.stdout)
+> ```
+
 ## This is pretty wild
 
 Honestly, Code Interpreter is by far the most exciting feature I've played with in ChatGPT. I actually think it's more interesting than both ChatGPT Plugins and ChatGPT Browsing - the opportunities it opens up are pretty astonishing.
